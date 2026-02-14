@@ -1,28 +1,25 @@
 ### Graded Assignment: Grid Layout Mastery
 
-**Assignment Overview:**
-Create a responsive magazine-style layout using CSS Grid. This assignment demonstrates your ability to use Grid for complex, real-world layouts.
+**What this assignment is for:** You show that you can build a layout using only what you learned in Lessons 6.1–6.3 (grid container, columns/rows, placement, minmax, auto-fit/auto-fill). You do **not** need media queries; Grid’s own features (e.g. auto-fit, minmax) handle different widths.
 
 **Requirements:**
-1. Create a grid-based page layout with header, main content, sidebar, and footer
-2. Use grid-template-areas for clear, semantic layout structure
-3. Implement a responsive card grid using auto-fit/auto-fill (at least 8 items)
-4. Use minmax() for flexible column sizing
-5. Include a featured section that spans multiple grid cells
-6. Make the layout responsive—sidebar should move below content on tablet, grid should adjust columns on mobile
-7. Use grid alignment properties appropriately
-8. Include at least one nested grid
-9. Add proper gaps and spacing throughout
+1. Create a grid-based page layout with header, main content, sidebar, and footer using **only CSS Grid** for that layout.
+2. Use `grid-template-areas` to name and place the main regions (header, main, sidebar, footer).
+3. Include a card grid with at least 8 items using `repeat(auto-fit, minmax(...))` or `auto-fill` so the number of columns adjusts to width.
+4. Use `minmax()` for at least one set of columns or rows.
+5. Include at least one section that spans multiple grid cells (e.g. `grid-column: span 2` or `grid-area`).
+6. Use grid alignment (e.g. `justify-items`, `align-items`) where it helps.
+7. Include at least one nested grid (a grid item that is also `display: grid`).
+8. Use `gap` (or row-gap/column-gap) for spacing.
 
 **Deliverables:**
-- HTML file with semantic structure
-- CSS file demonstrating Grid techniques
-- Fully responsive layout that works on mobile, tablet, and desktop
-- Code comments explaining Grid decisions
+- HTML file with clear structure
+- CSS file that uses Grid for layout as taught in this module
+- Code comments that explain your Grid choices
 
 **Grading Criteria:**
-- Proper Grid syntax and properties
-- Responsive behavior using Grid features
-- Use of grid-template-areas and placement
-- Code organization and best practices
-- Visual design and implementation quality
+- Correct Grid syntax and properties from this module (30%)
+- Use of grid-template-areas and placement (20%)
+- Use of auto-fit/auto-fill and minmax (25%)
+- Code organization and comments (15%)
+- Layout and spacing (10%)
